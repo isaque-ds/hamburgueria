@@ -2,7 +2,7 @@
 Este repositório contém o código-fonte de uma landing page para uma hamburgueria, desenvolvida com HTML e CSS. O objetivo do projeto é criar uma interface moderna e responsiva para divulgar o cardápio e incentivar pedidos online.
 ## 🖥️ Visualize o Projeto
 
-🔗 Clique aqui para visualizar o projeto: 
+🔗 Clique aqui para visualizar o projeto: https://isaque-ds.github.io/hamburgueria/
 ## Funcionalidas
 Layout responsivo para diferentes dispositivos<br>
 Animações e transições suaves<br>
