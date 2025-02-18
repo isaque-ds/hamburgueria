@@ -1,16 +1,20 @@
+/* Importação da fonte do Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Protest+Revolution&display=swap');
 
+/* Reset básico do CSS */
 * {
     box-sizing: border-box;
     margin: 0;
 }
 
+/* Estilização do corpo da página */
 body {
     background-color: black;
     margin: 0;
     scroll-behavior: smooth;
 }
 
+/* Barra de navegação fixa no topo */
 .navbar {
     display: flex;
     width: 100%;
@@ -19,6 +23,7 @@ body {
     position: fixed;
 }
 
+/* Estilização do logo */
 .logo {
     display: flex;
     justify-content: center;
@@ -29,6 +34,7 @@ body {
     color: rgb(252, 154, 25);
 }
 
+/* Menu de navegação */
 .menu {
     display: flex;
     justify-content: center;
@@ -37,6 +43,7 @@ body {
     margin-left: 100px;
 }
 
+/* Links do menu */
 .menu a {
     padding: 15px;
     text-align: center;
@@ -47,11 +54,13 @@ body {
     color: white;
 }
 
+/* Efeito hover nos links do menu */
 .menu a:hover {
     color: rgb(252, 154, 25);
     border-bottom: 5px solid rgb(252, 154, 25);
 }
 
+/* Botão 'Seja um franqueado' */
 #franqueado {
     padding: 8px 12px;
     background-color: rgb(252, 154, 25);
@@ -60,22 +69,26 @@ body {
     margin-left: 150px;
 }
 
+/* Efeito hover no botão franqueado */
 #franqueado:hover {
     background-color: white;
     color: black;
     border-bottom: none;
 }
 
+/* Container da imagem principal */
 .header {
     display: inline-block;
     width: 100%;
 }
 
+/* Imagem principal responsiva */
 .header img {
     width: 100%;
     height: auto;
 }
 
+/* Seção de destaque (headline) */
 .headline {
     display: flex;
     height: 600px;
@@ -83,15 +96,18 @@ body {
     margin-top: 80px;
 }
 
+/* Container da imagem na headline */
 .img-headline {
     display: flex;
     flex: 50%;
 }
 
+/* Imagem na seção headline */
 .headline img {
     margin-left: 100px;
 }
 
+/* Container do texto na headline */
 .text-headline {
     display: flex;
     flex-flow: row wrap;
@@ -129,6 +145,7 @@ body {
     border-radius: 10px;
 }
 
+/* Estilo dos títulos de cada seção */
 #hamburguer,
 #combo,
 #bebidas,
@@ -145,11 +162,13 @@ body {
     text-shadow: 2px 2px 3px white;
 }
 
+/* Container dos cards de produtos */
 .servicos {
     display: flex;
     width: 100%;
 }
 
+/* Cards individuais de produtos */
 .card {
     display: flex;
     flex: 50%;
@@ -162,15 +181,18 @@ body {
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
 }
 
+/* Efeito hover nos cards */
 .card:hover {
     background: rgb(252, 154, 25);
 }
 
+/* Imagens dentro dos cards */
 .card img {
     width: 40%;
     margin: 10px;
 }
 
+/* Container do texto nos cards */
 .card-text {
     display: inline-block;
 }
