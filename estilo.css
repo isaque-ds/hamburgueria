@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Protest+Revolution&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: black;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    position: fixed;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 20%;
+    font-family: "Protest Revolution", sans-serif;
+    font-size: 25px;
+    color: rgb(252, 154, 25);
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 80%;
+    margin-left: 100px;
+}
+
+.menu a {
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.menu a:hover {
+    color: rgb(252, 154, 25);
+    border-bottom: 5px solid rgb(252, 154, 25);
+}
+
+#franqueado {
+    padding: 8px 12px;
+    background-color: rgb(252, 154, 25);
+    color: white;
+    border-radius: 10px;
+    margin-left: 150px;
+}
+
+#franqueado:hover {
+    background-color: white;
+    color: black;
+    border-bottom: none;
+}
+
+.header {
+    display: inline-block;
+    width: 100%;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.headline {
+    display: flex;
+    height: 600px;
+    background-color: rgb(252, 154, 25);
+    margin-top: 80px;
+}
+
+.img-headline {
+    display: flex;
+    flex: 50%;
+}
+
+.headline img {
+    margin-left: 100px;
+}
+
+.text-headline {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    flex: 50%;
+    text-align: center;
+}
+
+.headline h2 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-family: "Protest Revolution", sans-serif;
+    margin-top: 30px;
+}
+
+.headline p {
+    color: black;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px;
+}
+
+#titulo-hamburguer,
+#titulo-combo,
+#titulo-sobremesas,
+#titulo-bebidas {
+    display: flex;
+    flex-flow: column wrap;
+    width: 100%;
+    margin: 80px 0 40px;
+    background-image: linear-gradient(to right, rgb(252, 154, 25), rgb(61, 37, 4), rgb(0, 0, 0));
+    border-radius: 10px;
+}
+
+#hamburguer,
+#combo,
+#bebidas,
+#sobremesas {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: start;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+    font-size: 30px;
+    font-family: "Fredoka", sans-serif;
+    text-shadow: 2px 2px 3px white;
+}
+
+.servicos {
+    display: flex;
+    width: 100%;
+}
+
+.card {
+    display: flex;
+    flex: 50%;
+    align-items: center;
+    margin: 20px;
+    width: 600px;
+    height: 300px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.card:hover {
+    background: rgb(252, 154, 25);
+}
+
+.card img {
+    width: 40%;
+    margin: 10px;
+}
+
+.card-text {
+    display: inline-block;
+}
+
+.card h3 {
+    color: rgb(252, 154, 25);
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.card:hover h3 {
+    color: black;
+}
+
+.card p {
+    color: black;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin: 10px;
+}
+
+.rodape {
+    background: rgb(252, 154, 25);
+    margin-top: 150px;
+    height: 300px;
+    border-top: 5px solid white;
+}
+
+.rodape h1 {
+    color: black;
+    margin-top: 20px;
+}
+
+.rodape p {
+    color: black;
+    text-align: center;
+    font-family: "Fredoka", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+#copy {
+    margin-top: 150px;
+    font-weight: 600;
+}
